@@ -135,23 +135,23 @@ section {
 }
 
 .keySkills {
+	display: flex;
+	flex-wrap: wrap;
+
 	list-style-type: none;
-	column-count:3;
 	font-size: 1em;
 	color: #444;
 }
 
-.keySkills ul li {
+.keySkills li {
+	width: 150px;
+	margin-right: 8px;
 	margin-bottom: 3px;
 }
 
 @media all and (max-width: 800px) {
 	#headshot {
 		display: none;
-	}
-	
-	.keySkills {
-  	column-count:2;
 	}
 }
 
@@ -199,10 +199,6 @@ section {
 	
 	#mainArea {
 		padding: 0 25px;
-	}
-	
-	.keySkills {
-  	column-count:1;
 	}
 }
 
