@@ -16,6 +16,10 @@ p {
 	color: #444;
 }
 
+ul {
+	padding-inline-start: 0px;
+}
+
 #cv {
 	width: 90%;
 	max-width: 800px;
