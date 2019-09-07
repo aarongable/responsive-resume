@@ -149,6 +149,10 @@ section {
 	margin-bottom: 3px;
 }
 
+.footer {
+	padding-top: 20px;
+}
+
 @media all and (max-width: 800px) {
 	#headshot {
 		display: none;
